@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing & Coverage
+/coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Production Builds
+/dist
+/build
+*.egg-info/
+
+# Python Virtual Environments & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local Database Files
+*.db
+*.sqlite
+*.sqlite3
+mindcampus_dev.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temp static uploads in dev
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
